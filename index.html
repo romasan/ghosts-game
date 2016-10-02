@@ -1,0 +1,45 @@
+<head>
+<link rel="stylesheet" href="css.css">
+<script src="jquery.min.js"></script>
+<script>
+var lang = {
+	youwin : "YOU WIN:)",
+	gameover : "GAMEOVER"
+}
+</script>
+<script src="gameengine.js"></script>
+<script src="levels.js"></script>
+</head>
+<body>
+	<div id="startscreen">
+		<div id="logo"></div>
+		<div id="continue"></div>
+		<div id="newgame"></div>
+	</div>
+	<div id="mapsplash" class="hidden"></div>
+	<div id="help" class="hidden"></div>
+	<div id="gamescreen" class="hidden">
+		<!--
+		<div id="middleline"></div>
+		-->
+		<!--
+		<div id="pointsbar">Points: <span id="points">0</span></div>
+		-->
+		<!--
+		<div id="topframe"></div>
+		-->
+		<div id="map"></div>
+		<div id="starttimer"></div>
+		<div id="levelbar">Level: <span id="level">X</span></div>
+		<div id="checktimer" class="hidden">Time : <span id="timer"></span></div>
+		<!--
+		<div id="bottomframe"></div>
+		<div id="playeris">PLAYER 1</div>
+		-->
+		<!--
+		<div id="resetbut" onclick="document.location.reload()"></div>
+		-->
+	</div>
+	<div id="youwin" class="hidden">YOU WIN!</div>
+	
+</body>
